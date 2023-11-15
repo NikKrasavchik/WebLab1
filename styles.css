@@ -96,7 +96,7 @@ h2 {
     font-weight: 500;
 }
 main {
-    padding: 60px 24px 0px 24px;
+    margin: 60px 24px 0px 24px;
 }
 .regularText {
     font-size: 1.6rem;
@@ -118,7 +118,7 @@ main {
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 120%;
-    padding-top: 40px;
+    margin-top: 40px;
 }
 
 .applicationBtn {
@@ -190,12 +190,12 @@ footer {
 
 
 .text {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .mezh {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .tripple {
