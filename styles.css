@@ -46,6 +46,7 @@ table {
 :root {
     --grey-color: #545E76;
     --white-color: white;
+    --red-color: #F31B62;
 }
 
 html {
@@ -59,92 +60,208 @@ html {
     text-align: center;
 }
 
-h1 {
-    display: none;
-}
-
 header {
-    color:white;
+    color: var(--white-color);
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 4rem;
     font-weight: 300;
 }
 .redText {
-    color:#F31B62;
+    color: var(--red-color);
     font-weight: 500;
-    font-size: 1.4em;
+    font-size: 1.4rem;
 }
 
 .smallText {
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: 400;
+}
+.smallText1 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 60px;
 }
 
 .butcherName {
-    font-size: 1.4em;
+    font-size: 1.4rem;
     font-weight: 300;
     color: var(--grey-color);
+    margin-top: 40px;
 }
 
 .biggestText {
-    font-size: 3.3em;
+    font-size: 3.3rem;
     font-weight: 500;
 }
-
+main {
+    padding: 60px 24px 0px 24px;
+}
 .regularText {
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
 .bigText {
-    font-size: 2.2em;
+    font-size: 2.2rem;
     font-weight: 400;
+    margin-top: 56px;
 }
 
 .name {
-    font-size: 2.2em;
+    font-size: 2.2rem;
     font-weight: 700;
 }
 
 .table {
-    font-size: 2.4em;
+    font-size: 2.4rem;
     font-weight: 700;
     line-height: 120%;
+    padding-top: 40px;
 }
 
 .applicationBtn {
-    font-size: 1.6em;
+    font-size: 1.6rem;
     align-items: center;
+    position: relative;
+    top: 35px;
+    padding: 18px 48px;
 }
 
 .whiteBtnText {
-    color: white;
-    font-size: 1.8em;
+    color: var(--white-color);
+    font-size: 1.8rem;
 }
 
 p {
     font-weight: 300;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     line-height: 170%;
 }
 
 .bigNumbers {
-    font-size: 4em;
+    font-size: 4rem;
     font-weight: 500;
+    float: left;
+    padding-right: 8px;
 }
 
 .plus {
-    font-size: 4em;
+    font-size: 4rem;
     font-weight: 400;
     color: var(--grey-color);
 }
 
 footer {
     color: var(--grey-color);
+    margin: 40px 24px;
 }
 
 .whiteText {
     color: var(--white-color);
+}
+
+.notDispleyed {
+    display: none;
+}
+
+.notDispleyedBtn {
+    background-image: none; 
+    background-color: transparent;
+    border: 0;
+    float: right;
+    position: relative;
+    padding: 24px;
+}
+
+.blockH2 {
+    position: relative;
+    padding-left: 56px;
+    padding-top: 10px;
+}
+
+.headingBlock {
+    position: relative; 
+    top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.text {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.mezh {
+    padding-bottom: 20px;
+}
+
+.tripple {
+    display: inline-block;
+    max-width: 140px;
+    margin-top: 24px;
+}
+
+.kovichki {
+    position: absolute;
+    left: 20px;
+    bottom: -34px;
+}
+
+.vid {
+    width: 100%;
+    margin: 60px auto;
+}
+
+.playvid {
+    position: absolute;
+    left: 43%;
+    bottom: 42%;
+}
+
+.foot {
+    background-image: url("Sources/img21.svg");
+    height: 580px;
+    width: 100%;
+    text-align: center;
+    padding: 24px;
+}
+
+.backButton {
+    background-color: transparent;
+    background-image: none; 
+    border: 0;
+}
+
+.footSmallText {
+    color: white;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight:200;
+    padding-top: 60px;
+}
+.footBigText {
+    color: white;
+    text-align: left;
+    font-size: 2.6rem;
+    font-weight:200;
+    padding-top: 60px;
+    padding-right: 24px;
+}
+
+.kovichki2 {
+    float: left;
+}
+
+.social {
+    clear:both; 
+    padding-top: 32px;
+}
+
+a {
+    height: 30px;
+    margin: 0px 10px;
+    display: inline-block;
 }
